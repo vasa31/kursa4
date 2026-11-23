@@ -7,7 +7,7 @@ import os
 import flet as ft
 import httpx
 
-API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = os.environ.get("API_URL", "http://127.0.0.1:8008").rstrip("/")
 
 VERDICT_COLOR = {
     "рекомендовать": ft.Colors.GREEN_700,
